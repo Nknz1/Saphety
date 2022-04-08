@@ -18,7 +18,7 @@ public class Simulacao2 {
 
 		// Pergunta quantas simulações serão realizadas
 		System.out.println(
-				"Por favor, Qual o numero de simulações que deseja fazer ? \n( Digite um valor diferente de 0 e inteiro)");
+				"Por favor, Qual o numero de simulações que deseja fazer ? \n( Digite um valor diferente de 0 até 100)");
 		int numeroSimu = scan.nextInt();
 
 		// Cria o laço com o numero das simulações
@@ -299,6 +299,7 @@ public class Simulacao2 {
 		// Realizada o print no console das quantidades de vitorias
 		System.out.println("\n");
 		System.out.println("###############################################################");
+		System.out.println("Numero de simulações "+contador+"/100");
 		System.out.println("Você ganhou: " + countManterWin + " Vezes, Mantendo a porta escolhida!");
 		System.out.println("Você ganhou: " + countTrocarWin + " Vezes, Trocando a porta escolhida!");
 		System.out.println("###############################################################");

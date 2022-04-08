@@ -298,7 +298,8 @@ public class Simulacao {
 		Gson gson = new Gson();
 
 		JsonObject obj = new JsonObject();
-
+		
+		obj.addProperty("numSimulacao", contador);
 		obj.addProperty("countManterWin", countManterWin);
 		obj.addProperty("countTrocarWin", countTrocarWin);
 
